@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class"],
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -8,17 +9,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "hsl(36 33% 97%)",
-        foreground: "hsl(222 22% 18%)",
-        card: "hsl(0 0% 100%)",
-        muted: "hsl(228 11% 45%)",
-        accent: "hsl(346 44% 66%)",
-        accentStrong: "hsl(346 48% 52%)",
-        roseWash: "hsl(346 36% 92%)",
-        sand: "hsl(34 30% 90%)"
+        background: "hsl(222 24% 6%)",
+        foreground: "hsl(210 40% 98%)",
+        card: "hsl(224 22% 8%)",
+        muted: "hsl(215 20% 65%)",
+        accent: "hsl(212 85% 65%)"
       },
       boxShadow: {
-        glow: "0 20px 50px rgba(143, 83, 104, 0.18)"
+        glow: "0 0 40px rgba(99, 179, 237, 0.15)"
       }
     }
   },
