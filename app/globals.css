@@ -8,7 +8,7 @@ body {
 }
 
 .glass-panel {
-  @apply border border-sand border-opacity-70 bg-white/80 shadow-glow backdrop-blur-xl;
+  @apply border border-sand/70 bg-white/80 shadow-glow backdrop-blur-xl;
 }
 
 .section-label {
