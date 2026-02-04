@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
-}
-
 body {
   @apply bg-background text-foreground antialiased;
   font-feature-settings: "cv11", "ss01";
 }
 
 .glass-panel {
-  @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-lg;
+  @apply border border-sand/70 bg-white/80 shadow-glow backdrop-blur-xl;
+}
+
+.section-label {
+  @apply text-xs uppercase tracking-[0.35em] text-muted;
 }

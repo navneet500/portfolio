@@ -6,38 +6,6 @@ import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-const skills = [
-  "Product Strategy",
-  "Design Systems",
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Framer Motion",
-  "Tailwind CSS",
-  "User Research"
-];
-
-const projects = [
-  {
-    title: "Atlas Banking Platform",
-    description:
-      "Reimagined a digital banking experience with secure onboarding, predictive insights, and a premium wealth interface.",
-    stack: ["Product Design", "Next.js", "Framer Motion"]
-  },
-  {
-    title: "Halo Analytics Suite",
-    description:
-      "Built a modular analytics dashboard that surfaces executive KPIs with clarity and motion-rich storytelling.",
-    stack: ["Data Viz", "Design Systems", "TypeScript"]
-  },
-  {
-    title: "Nimbus CX Hub",
-    description:
-      "Delivered a customer experience workspace with omnichannel orchestration and streamlined workflows.",
-    stack: ["UX Strategy", "React", "API Integrations"]
-  }
-];
-
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {
