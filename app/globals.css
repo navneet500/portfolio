@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-foreground antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+
+.glass-panel {
+  @apply border border-sand/70 bg-white/80 shadow-glow backdrop-blur-xl;
+}
+
+.section-label {
+  @apply text-xs uppercase tracking-[0.35em] text-muted;
+}
